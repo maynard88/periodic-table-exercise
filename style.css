@@ -1,0 +1,40 @@
+.periodic-table {
+     border-collapse: collapse;
+     width: 100%;
+   }
+   
+   .periodic-table th {
+     text-align: center;
+     font-size: 20px;
+     background-color: #f5f116;
+     border: 1px solid black;
+   }
+   
+   .periodic-table td {
+     width: 50px;
+     height: 50px;
+     text-align: center;
+   }
+
+   .periodic-table tr td:not(:empty) {
+     border: 1px solid black;
+  }
+
+  .element {
+     width: 100%;
+     height: 100%;     
+     text-align: center;
+   }
+   
+   .element .at_num {
+     font-size: 12px;
+   }
+   
+   .element .symbol {
+     font-size: 28px;
+     font-weight: bold;
+   }
+   
+   .element .at_details {
+     font-size: 10px;
+   }
